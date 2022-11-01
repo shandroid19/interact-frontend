@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Encode+Sans:wght@600&family=Questrial&display=swap');/* 
+body{
+  font-family: "Audiowide", sans-serif; */
+
+  /* color:black; */
+
+/* } */
+/* 
+.card{
+  background-color: #75c8ff
+} */
+.logo{
+  height:3rem
+}
+.upload{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.roundedImage{
+  border-radius:50%;
+  width:7rem;
+  height:7rem;
+  object-fit:contain;
+  background-color:black;
+}
+
+@media (max-width: 767px) { 
+  .roundedImage{
+    width:6rem;
+    height:6rem;
+  }
+}
+@media (min-width: 768px) {
+  .roundedImage{
+    width:7rem;
+    height:7rem;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .roundedImage{
+    width:8rem;
+    height:8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .roundedImage{
+    width:8rem;
+    height:8rem;
+  }
+ }
