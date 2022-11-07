@@ -11,7 +11,7 @@ const username = useRef(null)
 const name = useRef(null)
 const history = useHistory();
 
-const clientId='504774353232-i4ctofb91259kii33088t50e8cl2c2si.apps.googleusercontent.com'
+const clientId="client id here"
 const city = useRef(null)
 const [autherr,setautherr] = useState(null)
 const [dark,setdark] = useState(false)
